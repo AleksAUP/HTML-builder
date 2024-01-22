@@ -77,7 +77,7 @@ function createCss () {
                         temp += data.toString()    
                     })
                     readStream.on('end', () => {
-                        fs.writeFile(`${pathForBundle}/bundle.css`,temp, () => {
+                        fs.writeFile(`${pathForBundle}/style.css`,temp, () => {
                             temp = ''
                             copyAssets(assetsPath, distPath)
                         }) 
