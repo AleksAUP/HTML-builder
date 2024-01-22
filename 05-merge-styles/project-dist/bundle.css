@@ -10,6 +10,7 @@
   border: 1px solid rgba(102, 166, 229, 0.12);
 }
 
+
 .solar-syst div:not(.sun):before {
   left: 50%;
   border-radius: 100px;
@@ -655,14 +656,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
 
+}
 html,
 body{
-  width: 100%; height: 100%;
+  width: 100%; 
+  height: 100%;
 }
 
 body {
+
   font:
     normal 1em/1.45em 'Helvetica Neue',
     Helvetica,
